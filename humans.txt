@@ -4,6 +4,7 @@
 # TEAM
 
     Florent lequibain -- dev -- @Flo_Lequibain
+    Benjamin DE GROOTE -- Dev -- @degroote.benjamin1
 
 # THANKS
 

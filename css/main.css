@@ -107,6 +107,61 @@ textarea {
 
 
 
+/*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
+footer{
+  background-color:rgba(29, 29, 30,1);
+}
+
+.footercontainer{
+  width: 250px;
+  margin: auto;
+  background-color: red;
+  font-size: 0.8em;
+}
+
+.iconsfooter{
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  margin-top: 50px;
+}
+
+.iconfooter{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.horaires{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.footercontaineritem1, .footercontaineritem05{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footercontaineritem1{
+  margin-top: 20px;
+}
+
+
+
+.footercontaineritem2{
+  display: block;
+  margin-top: 20px;z
+}
+
+/*~~~~~~~~~~~~~~~ END FOOTER MOBILE ~~~~~~~~~~~~~~~*/
+
+
+
+@media (min-width:638px){}
+
+
+
+
 
 
 

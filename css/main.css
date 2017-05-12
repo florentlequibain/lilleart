@@ -105,9 +105,20 @@ textarea {
    ========================================================================== */
 
 
+/*header rules*/
 
+.imglogo{
+  height: 73px;
+  width: 59px;
+}
 
+header nav{
+  background-color: black;
+}
 
+header nav li a {
+  color: white;
+}
 
 
    /* ==========================================================================

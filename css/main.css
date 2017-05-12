@@ -110,26 +110,37 @@ textarea {
 /*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
 footer{
   background-color:rgba(29, 29, 30,1);
+  padding-top: 50px;
 }
 
 .footercontainer{
   width: 250px;
   margin: auto;
-  background-color: red;
   font-size: 0.8em;
+  color: white;
 }
 
 .iconsfooter{
   display: flex;
   justify-content: space-around;
-  background-color: green;
   margin-top: 50px;
+}
+
+.iconsfooter .icon{
+  color: white;
+}
+
+.iconsfooter .icon:hover{
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
 }
 
 .iconfooter{
   font-size: 20px;
   margin-right: 20px;
+  color: white;
 }
+
 
 .horaires{
   font-size: 0.8em;
@@ -146,18 +157,59 @@ footer{
   margin-top: 20px;
 }
 
-
+.footercontaineritem1:hover,.footercontaineritem1:hover .icon{
+  text-decoration: none;
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
 
 .footercontaineritem2{
   display: block;
-  margin-top: 20px;z
+  margin-top: 20px;
+  color: white;
+}
+
+.footercontaineritem2:hover, .footercontaineritem2:hover .icon{
+  text-decoration: none;
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
 }
 
 /*~~~~~~~~~~~~~~~ END FOOTER MOBILE ~~~~~~~~~~~~~~~*/
 
 
 
-@media (min-width:638px){}
+@media (min-width:638px){
+  .footercontainer{
+    width: 80%;
+    margin: auto;
+    font-size: 1.7em;
+    color: white;
+  }
+
+  .footercontainer .icon{
+    font-size: 45px;
+  }
+
+  .footercontainer h5{
+    font-size: 2em;
+  }
+
+  .iconsfooter{
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .iconsfooter .icon{
+    font-size: 50px;
+  }
+
+  .footercontaineritem1, .footercontaineritem2{
+    margin-top: 50px;
+  }
+
+}
 
 
 

@@ -116,7 +116,7 @@ header nav {
     min-height: 50px;
 }
 
-header nav li a {
+header nav a {
     color: white;
 }
 
@@ -138,6 +138,12 @@ header nav li a {
     width: 161px;
     height: 35px;
 }
+
+.navsearchborder:hover , .navsearchborder:hover i  {
+  color: #D8383F;
+  border-color: #D8383F;
+}
+
 .navsearchborder i , .naviright1 , .naviright{
     font-size: inherit;
     color: white;
@@ -164,6 +170,27 @@ header nav li a {
   padding-bottom: 8px;
 }
 
+.logoindex{
+  display: flex;
+  align-items: center;
+}
+
+.logoindex p{
+  color: white;
+}
+
+.logoindex a:first-child{
+  margin-right: 15px;
+}
+
+.logoindex a:first-child:hover p{
+  color: #D8383F;
+}
+
+a:hover{
+  color: #D8383F;
+  text-decoration: none;
+}
 
 @media (min-width:1200px) {
     .center {

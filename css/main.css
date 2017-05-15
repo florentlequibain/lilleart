@@ -109,10 +109,117 @@ textarea {
    ========================================================================== */
 
 
+body{
+  background-color:rgba(29, 29, 30,1);
+}
+
    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
    /*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+   /*~~~~~~~~~~ FIRST ENCART BACKGROUND VIDEO~~~~*/
+.firstencartlogo figure img{
+  width: 100%;
+  height: auto;
+}
+
+.firstencart{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4{
+  height: 20px;
+  width: 100%;
+}
+
+.firstencartbordertop1{
+  border-top: solid black 10px;
+  border-right: solid black 10px;
+}
+
+.firstencartborderbottom2{
+  border-left: solid black 10px;
+  border-bottom: solid black 5px;
+}
+
+.firstencartbordertop3{
+  border-top: solid black 5px;
+  border-right: solid black 10px;
+}
+
+.firstencartborderbottom4{
+  border-bottom: solid black 10px;
+  border-left: solid black 10px;
+}
+   /*~~~~~END FIRST ENCART BACKGROUND VIDEO~~~~~~*/
+
+   /*~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~*/
+.slider{
+  padding: 0;
+}
+
+
+   /*~~~~~~~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~*/
+
+
+   /*~~~~~~~~~~~~~~~~~~~4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+.oeuvrescles{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.oeuvrescles h4{
+  font-weight: bold;
+}
+   /*~~~~~~~~~~~~~~~~~~~END 4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+
+   /*~~~~~~~~~~~~~~~~~~~OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+.imageoeuvre{
+  padding: 0;
+}
+
+.imageoeuvre figure img{
+  width: 100%;
+  height: auto;
+  margin:0;
+}
+
+.imageoeuvre figure{
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.imageoeuvre:hover .oeuvretexte{
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+.oeuvretexte{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 80px;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+  margin-bottom:10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.oeuvretext1{
+  font-weight: bold;
+}
+
+
+   /*~~~~~~~~~~~~~~~~~~~END OEUVRES CLES~~~~~~~~~~~~~~~~~*/
 
 
 
@@ -126,7 +233,6 @@ textarea {
 }
 
 footer{
-  background-color:rgba(29, 29, 30,1);
   padding-top: 50px;
   width: 100%;
 }

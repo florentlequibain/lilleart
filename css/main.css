@@ -221,6 +221,61 @@ body{
 
    /*~~~~~~~~~~~~~~~~~~~END OEUVRES CLES~~~~~~~~~~~~~~~~~*/
 
+   /*~~~~~~~~~~~~~~~~~~~HOVER DIV~~~~~~~~~~~~~~~~~*/
+  .nosapplicationscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d8383f;
+    padding: 20px;
+  }
+
+  .nosapplications figure svg{
+   width: 100%;
+   height: auto;
+  }
+
+  .nosapplications figure{
+    width: 40%;
+  }
+
+  .vousguider{
+    font-size: 2em;
+    padding: 1.5em;
+    color: white;
+  }
+
+  .telechargez{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    border: solid 3px white;
+    padding: 40px;
+  }
+
+  .nosapplicationscontainer:hover{
+    background-color: white;
+    transition: 0.4s;
+  }
+
+  .nosapplicationscontainer:hover .svgcolor1{
+    fill: #d8383f;
+  }
+
+  .nosapplicationscontainer:hover .svgcolor2{
+    stroke: #d8383f;
+  }
+
+  .nosapplicationscontainer:hover .vousguider, .nosapplicationscontainer:hover .telechargez {
+    color: #d8383f;
+   }
+
+   .nosapplicationscontainer:hover .telechargez{
+     border-color:#d8383f;
+   }
+   /*~~~~~~~~~~~~~~~~~~~END HOVER DIV~~~~~~~~~~~~~~~~~*/
+
 
 
 /*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/

@@ -105,12 +105,24 @@ textarea {
    ========================================================================== */
 
 
+   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   /*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
+   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 
 
 /*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
+.footerdesktop{
+  display: none;
+}
+
 footer{
   background-color:rgba(29, 29, 30,1);
   padding-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footercontainer{
@@ -179,7 +191,18 @@ footer{
 
 
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~TABLET~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 @media (min-width:638px){
+
+  .footerdesktop{
+    display: none;
+  }
+
   .footercontainer{
     width: 80%;
     margin: auto;
@@ -208,9 +231,80 @@ footer{
   .footercontaineritem1, .footercontaineritem2{
     margin-top: 50px;
   }
-
 }
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~DESKTOP~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media (min-width:1280px){
+
+.footercontaineritem2{
+  display: none;
+}
+
+.footercontaineritem1{
+  display: none;
+}
+
+.footercontaineritem0{
+  display: none;
+}
+
+.iconsfooter{
+  display: none;
+}
+
+.footerdesktop{
+  display: flex;
+  border-bottom: solid 1px white;
+}
+
+.footerdesktop article .iconfooter{
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.footerdesktop article{
+  padding: 20px;
+}
+
+.footerdesktop h5{
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footerdesktop ul, .footerdesktop p{
+  font-size: 0.45em;
+  text-align: left;
+}
+
+.suiveznousicons{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  text-align: center;
+}
+
+.suiveznousicons .icon{
+  font-size: 0.8em;
+  color: white;
+}
+
+.suiveznousicons .icon:hover{
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+
+
+
+
+
+}
 
 
 

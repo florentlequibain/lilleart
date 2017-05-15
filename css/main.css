@@ -111,17 +111,21 @@ textarea {
 
 /*header rules*/
 
+.backblack, .navblack, header nav {
+    background-color: #1D1D1E;
+}
+
 header nav {
-    background-color: black;
     min-height: 50px;
 }
 
-header nav a {
+
+header nav a, .whitecolor, .navbar-toggler-icon, .logoindex p , a:visited {
     color: white;
 }
 
-.navbar-toggler-icon {
-    color: white;
+header nav .active {
+    color: #D8383F;
 }
 
 .navimglogo {
@@ -130,7 +134,7 @@ header nav a {
 }
 
 .navlogopalais {
-    width: 373px;
+    width: 320px;
 }
 
 .navsearchborder {
@@ -139,57 +143,68 @@ header nav a {
     height: 35px;
 }
 
-.navsearchborder:hover , .navsearchborder:hover i  {
-  color: #D8383F;
-  border-color: #D8383F;
+.navsearchborder:hover, .navsearchborder i:hover {
+    color: #D8383F;
+    border-color: #D8383F;
 }
 
-.navsearchborder i , .naviright1 , .naviright{
+.navsearchborder i, .naviright1, .naviright {
     font-size: inherit;
     color: white;
 }
+
 .navblack {
-    background-color: black;
     width: 70%;
     border: none;
 }
 
-.navmobile{
-  width: 70%;
-  padding-bottom: 5px;
+.navmobile {
+    width: 70%;
+    padding-bottom: 5px;
 }
 
 .navmobile span i {
-  color: white;
-  padding-right: 25px;
+    color: white;
+    padding-right: 25px;
 }
 
-.borderwhitebot{
-  border-bottom: 2px white solid;
-  padding-right: 100px;
-  padding-bottom: 8px;
+.borderwhitebot {
+    border-bottom: 2px white solid;
+    padding-right: 100px;
+    padding-bottom: 8px;
 }
 
-.logoindex{
-  display: flex;
-  align-items: center;
+.logoindex {
+    display: flex;
+    align-items: center;
 }
 
-.logoindex p{
-  color: white;
+.logoindex a:first-child {
+    margin-right: 15px;
 }
 
-.logoindex a:first-child{
-  margin-right: 15px;
+.logoindex a:first-child:hover p {
+    color: #D8383F;
 }
 
-.logoindex a:first-child:hover p{
-  color: #D8383F;
+a:hover {
+    color: #D8383F;
+    text-decoration: none;
 }
 
-a:hover{
-  color: #D8383F;
-  text-decoration: none;
+
+/*Visite.html*/
+
+.centercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.centercontent i {
+    color: white;
+    margin-right: 20px;
 }
 
 @media (min-width:1200px) {
@@ -197,8 +212,50 @@ a:hover{
         margin: 0 auto;
         width: 1280px;
     }
-
-
+    .cardimgback, .cardimgback img {
+        height: 738px;
+    }
+    .cardimgback, .cardimgback img, .cardimgbackoeuvre, .cardimgbackoeuvre img {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .cardimgbackoeuvre, .cardimgbackoeuvre img {
+        height: 424px;
+    }
+    .cardimgbackoeuvre i {
+        margin: 0;
+        font-size: 12px;
+    }
+    .cardimgbackoeuvre h2 {
+        margin: 0;
+        margin-top: 14px;
+    }
+    .visiterparcours {
+        padding-top: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .visiterparcours i {
+        margin: 0;
+    }
+    .cardp {
+        padding: 40px 22px 0 22px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .cardp, .cardp1, .cardp2 {
+        width: 50%;
+        left: 20%;
+        top: 60%;
+        height: 139px;
+    }
+    .cardp1, .cardp2 {
+        background-color: rgba(255, 255, 255);
+    }
+    .cardp2 {
+        left: 0;
+    }
 }
 
 

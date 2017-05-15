@@ -109,6 +109,258 @@ textarea {
    ========================================================================== */
 
 
+   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   /*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
+   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+/*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
+.footerdesktop{
+  display: none;
+}
+
+.footerdesktopend{
+  display: none;
+}
+
+footer{
+  background-color:rgba(29, 29, 30,1);
+  padding-top: 50px;
+  width: 100%;
+}
+
+.footercontainer{
+  width: 250px;
+  margin: auto;
+  font-size: 0.8em;
+  color: white;
+}
+
+.iconsfooter{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.iconsfooter .icon{
+  color: white;
+}
+
+.iconsfooter .icon:hover{
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+.iconfooter{
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+
+.horaires{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.footercontaineritem1, .footercontaineritem05{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footercontaineritem1{
+  margin-top: 20px;
+}
+
+.footercontaineritem1:hover,.footercontaineritem1:hover .icon{
+  text-decoration: none;
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+.footercontaineritem2{
+  display: block;
+  margin-top: 20px;
+  color: white;
+}
+
+.footercontaineritem2:hover, .footercontaineritem2:hover .icon{
+  text-decoration: none;
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+.footercaissedepargne{
+  display: none;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~ END FOOTER MOBILE ~~~~~~~~~~~~~~~*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~TABLET~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media (min-width:638px){
+
+  .footerdesktop{
+    display: none;
+  }
+
+.footerdesktopend{
+  display: none;
+}
+
+  .footercontainer{
+    width: 80%;
+    margin: auto;
+    font-size: 1.7em;
+    color: white;
+  }
+
+  .footercontainer .icon{
+    font-size: 45px;
+  }
+
+  .footercontainer h5{
+    font-size: 2em;
+  }
+
+  .iconsfooter{
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .iconsfooter .icon{
+    font-size: 50px;
+  }
+
+  .footercontaineritem1, .footercontaineritem2{
+    margin-top: 50px;
+  }
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~DESKTOP~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media (min-width:1280px){
+
+.footercontaineritem2{
+  display: none;
+}
+
+.footercontaineritem1{
+  display: none;
+}
+
+.footercontaineritem0{
+  display: none;
+}
+
+.iconsfooter{
+  display: none;
+}
+
+.footerdesktop{
+  display: flex;
+  border-bottom: solid 1px white;
+}
+
+.footerdesktop article .iconfooter{
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.footerdesktop article{
+  padding: 20px;
+}
+
+.footerdesktop h5{
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footerdesktop ul, .footerdesktop p{
+  font-size: 0.45em;
+  text-align: left;
+}
+
+.suiveznousicons{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  text-align: center;
+}
+
+.suiveznousicons .icon{
+  font-size: 0.8em;
+  color: white;
+}
+
+.suiveznousicons .icon:hover{
+  color: rgba(215, 55, 62, 1);
+  transition: 0.4s;
+}
+
+.footerdesktopend{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footerdesktopend a{
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.footerdesktopend a:hover{
+text-decoration: none;
+color: rgba(215, 55, 62, 1);
+transition: 0.4s;
+}
+
+.footercaissedepargne{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.footercaissedepargne p{
+  font-size: 0.4em;
+  color: grey;
+}
+
+.footercaissedepargne figure img{
+  width: 100%;
+  height: auto;
+}
+
+.footercaissedepargne figure{
+  width: 200px;
+}
+
+
+}
+
+
 /*header rules*/
 
 .backblack, .navblack, header nav {

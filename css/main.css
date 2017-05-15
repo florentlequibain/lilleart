@@ -434,7 +434,7 @@ header nav .active {
     margin-right: 15px;
 }
 
-.logoindex a:first-child:hover p , .cardimgback:hover .visiterparcours i , .cardimgback:hover .visiterparcours span , .cardimgback:hover h3 , .cardimgback:hover .cardp , .cardimgback:hover .cardp2  {
+.logoindex a:first-child:hover p , .cardimgback:hover .visiterparcours i , .cardimgback:hover .visiterparcours span , .cardimgback:hover h3 , .cardimgback:hover .cardp , .cardimgbackoeuvre:hover .cardp2 i , .cardimgbackoeuvre:hover .cardp2 h2 , .cardimgbackoeuvre:hover .cardp2 p {
     color: #D8383F;
 }
 
@@ -462,14 +462,18 @@ a:hover {
     padding: 40px 22px 0 22px;
     background-color: rgba(255, 255, 255, 0.9);
 }
-
+.cardp1{
+  top: 60%;
+}
 .cardp1, .cardp2 {
     width: 70%;
     left: 20%;
-    top: 60%;
     height: 139px;
 }
 
+.cardp2{
+  top:30%;
+}
 .cardp1, .cardp2 {
     background-color: rgba(255, 255, 255);
 }
@@ -478,8 +482,12 @@ a:hover {
     left: 0;
 }
 
-
-
+.paddingbot{
+  padding-bottom: 40px;
+}
+.cardpmobile{
+  margin: auto;
+}
 @media (min-width:1200px) {
     .center {
         margin: 0 auto;

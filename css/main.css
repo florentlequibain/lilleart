@@ -108,625 +108,576 @@ textarea {
 = =                                                                       = =
    ========================================================================== */
 
-
-body{
-  background-color:rgba(29, 29, 30,1);
-}
-
-   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-   /*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
-   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-   /*~~~~~~~~~~ FIRST ENCART BACKGROUND VIDEO~~~~*/
-
-   iframe {
-       position: absolute;
-       top: 0;
-       right: 0;
-       bottom: 0;
-       left: 0;
-       overflow: hidden;
-       z-index: -100;
-       width: 100%;
-       height: 100vh;
-   }
-
-
-
-.firstencartlogo figure img{
-  width: 100%;
-  height: auto;
-}
-
-.firstencartlogo figure{
-  margin: auto;
-  width: 100%;
-}
-
-.firstencartlogo{
-  margin: auto;
-  padding: 20px;
-}
-
-.firstencart{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.firstencart i{
-  margin: auto;
-  color: white;
-}
-
-.firstencart h4{
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 10px;
-  color: white;
-}
-
-.firstencart p{
-  font-size: 0.7em;
-  padding: 10px;
-  color: white;
-}
-
-.hoover1:hover i{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
-}
-
-.hoover2:hover i{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
-}
-
-.firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4{
-  height: 15px;
-  width: 100%;
-}
-
-.firstencartbordertop1{
-  border-top: solid white 8px;
-  border-right: solid white 8px;
-}
-
-.firstencartborderbottom2{
-  border-left: solid white 8px;
-  border-bottom: solid white 4px;
-}
-
-.firstencartbordertop3{
-  border-top: solid white 4px;
-  border-right: solid white 8px;
-}
-
-.firstencartborderbottom4{
-  border-bottom: solid white 8px;
-  border-left: solid white 8px;
-}
-
-.containerbackgroundvideo{
- margin: 30px;
-}
-   /*~~~~~END FIRST ENCART BACKGROUND VIDEO~~~~~~*/
-
-
-   /*~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~*/
-.slider{
-  padding: 0;
-}
-   /*~~~~~~~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~*/
-
-
-   /*~~~~~~~~~~~~~~~~~~~4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
-.oeuvrescles{
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
-
-.oeuvrescles h4{
-  font-weight: bold;
-}
-   /*~~~~~~~~~~~~~~~~~~~END 4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
-
-   /*~~~~~~~~~~~~~~~~~~~OEUVRES CLES~~~~~~~~~~~~~~~~~*/
-.imageoeuvre{
-  padding: 0;
-}
-
-.imageoeuvre figure img{
-  width: 100%;
-  height: auto;
-  margin:0;
-}
-
-.imageoeuvre figure{
-  width: 100%;
-  margin:0;
-  padding: 0;
-}
-
-.imageoeuvre:hover .oeuvretexte{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
-}
-
-.oeuvretexte{
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  height: 80px;
-  width: 80%;
-  background-color: white;
-  text-align: center;
-  margin-bottom:10%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.oeuvretext1{
-  font-weight: bold;
+body {
+    background-color: rgba(29, 29, 30, 1);
 }
 
 
-   /*~~~~~~~~~~~~~~~~~~~END OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-   /*~~~~~~~~~~~~~~~~~~~HOVER DIV~~~~~~~~~~~~~~~~~*/
-  .nosapplicationscontainer{
+
+/*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~ FIRST ENCART BACKGROUND VIDEO~~~~*/
+
+iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100vh;
+}
+
+.firstencartlogo figure img {
+    width: 100%;
+    height: auto;
+}
+
+.firstencartlogo figure {
+    margin: auto;
+    width: 100%;
+}
+
+.firstencartlogo {
+    margin: auto;
+    padding: 20px;
+}
+
+.firstencart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstencart i {
+    margin: auto;
+    color: white;
+}
+
+.firstencart h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+
+.firstencart p {
+    font-size: 0.7em;
+    padding: 10px;
+    color: white;
+}
+
+.hoover1:hover i {
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
+}
+
+.hoover2:hover i {
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
+}
+
+.firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4 {
+    height: 15px;
+    width: 100%;
+}
+
+.firstencartbordertop1 {
+    border-top: solid white 8px;
+    border-right: solid white 8px;
+}
+
+.firstencartborderbottom2 {
+    border-left: solid white 8px;
+    border-bottom: solid white 4px;
+}
+
+.firstencartbordertop3 {
+    border-top: solid white 4px;
+    border-right: solid white 8px;
+}
+
+.firstencartborderbottom4 {
+    border-bottom: solid white 8px;
+    border-left: solid white 8px;
+}
+
+.containerbackgroundvideo {
+    margin: 30px;
+}
+
+
+/*~~~~~END FIRST ENCART BACKGROUND VIDEO~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~*/
+
+.slider {
+    padding: 0;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+
+.oeuvrescles {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.oeuvrescles h4 {
+    font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~END 4 OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+
+.imageoeuvre {
+    padding: 0;
+}
+
+.imageoeuvre figure img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.imageoeuvre figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imageoeuvre:hover .oeuvretexte {
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
+}
+
+.oeuvretexte {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 80px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.oeuvretext1 {
+    font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~END OEUVRES CLES~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~HOVER DIV~~~~~~~~~~~~~~~~~*/
+
+.nosapplicationscontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #d8383f;
     padding: 20px;
-  }
+}
 
-  .nosapplications figure svg{
-   width: 100%;
-   height: auto;
-  }
+.nosapplications figure svg {
+    width: 100%;
+    height: auto;
+}
 
-  .nosapplications figure{
+.nosapplications figure {
     width: 40%;
-  }
+}
 
-  .vousguider{
+.vousguider {
     font-size: 2em;
     padding: 1.5em;
     color: white;
-  }
+}
 
-  .telechargez{
+.telechargez {
     font-size: 1.6em;
     font-weight: bold;
     color: white;
     border: solid 3px white;
     padding: 40px;
-  }
+}
 
-  .nosapplicationscontainer:hover{
+.nosapplicationscontainer:hover {
     background-color: white;
     transition: 0.4s;
-  }
+}
 
-  .nosapplicationscontainer:hover .svgcolor1{
+.nosapplicationscontainer:hover .svgcolor1 {
     fill: #d8383f;
-  }
+}
 
-  .nosapplicationscontainer:hover .svgcolor2{
+.nosapplicationscontainer:hover .svgcolor2 {
     stroke: #d8383f;
-  }
+}
 
-  .nosapplicationscontainer:hover .vousguider, .nosapplicationscontainer:hover .telechargez {
+.nosapplicationscontainer:hover .vousguider, .nosapplicationscontainer:hover .telechargez {
     color: #d8383f;
-   }
+}
 
-   .nosapplicationscontainer:hover .telechargez{
-     border-color:#d8383f;
-   }
-   /*~~~~~~~~~~~~~~~~~~~END HOVER DIV~~~~~~~~~~~~~~~~~*/
+.nosapplicationscontainer:hover .telechargez {
+    border-color: #d8383f;
+}
 
+
+/*~~~~~~~~~~~~~~~~~~~END HOVER DIV~~~~~~~~~~~~~~~~~*/
 
 
 /*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
-.footerdesktop{
-  display: none;
+
+.footerdesktop {
+    display: none;
 }
 
-.footerdesktopend{
-  display: none;
+.footerdesktopend {
+    display: none;
 }
 
-footer{
-  padding-top: 50px;
-  width: 100%;
+footer {
+    padding-top: 50px;
+    width: 100%;
 }
 
-.footercontainer{
-  width: 250px;
-  margin: auto;
-  font-size: 0.8em;
-  color: white;
+.footercontainer {
+    width: 250px;
+    margin: auto;
+    font-size: 0.8em;
+    color: white;
 }
 
-.iconsfooter{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+.iconsfooter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.iconsfooter .icon{
-  color: white;
+.iconsfooter .icon {
+    color: white;
 }
 
-.iconsfooter .icon:hover{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.iconsfooter .icon:hover {
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.iconfooter{
-  font-size: 20px;
-  margin-right: 20px;
-  color: white;
+.iconfooter {
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
 }
 
-
-.horaires{
-  font-size: 0.8em;
-  font-weight: bold;
+.horaires {
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
-.footercontaineritem1, .footercontaineritem05{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footercontaineritem1, .footercontaineritem05 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.footercontaineritem1{
-  margin-top: 20px;
+.footercontaineritem1 {
+    margin-top: 20px;
 }
 
-.footercontaineritem1:hover,.footercontaineritem1:hover .icon{
-  text-decoration: none;
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.footercontaineritem1:hover, .footercontaineritem1:hover .icon {
+    text-decoration: none;
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.footercontaineritem2{
-  display: block;
-  margin-top: 20px;
-  color: white;
+.footercontaineritem2 {
+    display: block;
+    margin-top: 20px;
+    color: white;
 }
 
-.footercontaineritem2:hover, .footercontaineritem2:hover .icon{
-  text-decoration: none;
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.footercontaineritem2:hover, .footercontaineritem2:hover .icon {
+    text-decoration: none;
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.footercaissedepargne{
-  display: none;
+.footercaissedepargne {
+    display: none;
 }
-
-
 
 
 /*~~~~~~~~~~~~~~~ END FOOTER MOBILE ~~~~~~~~~~~~~~~*/
 
 
-
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /*~~~~~~~~~~~~~~~~~~~TABLET~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-
-@media (min-width:638px){
-
-/*~~~~~~~~~~~~~ INDEX INTRO~~~~~~~~~~~~~~~~~~*/
-
-.firstencart h4{
-  font-size: 2em;
-}
-
-.firstencart p{
-  font-size: 0.9em;
-}
-
-  .firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4{
-    height: 20px;
-  }
-
-  .firstencartbordertop1{
-    border-top: solid white 10px;
-    border-right: solid white 10px;
-  }
-
-  .firstencartborderbottom2{
-    border-left: solid white 10px;
-    border-bottom: solid white 5px;
-  }
-
-  .firstencartbordertop3{
-    border-top: solid white 5px;
-    border-right: solid white 10px;
-  }
-
-  .firstencartborderbottom4{
-    border-bottom: solid white 10px;
-    border-left: solid white 10px;
-  }
-  /*~~~~~~~~~~~~~END INDEX INTRO~~~~~~~~~~~~~~~~~~*/
-
-
-  /*~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~*/
-.slider{
- padding: 0;
-}
-
-.slidertitre{
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.slidertext2{
-  font-weight: bold;
-}
-
-.slider i{
-  color: white;
-  font-size: 2em;
-  }
-
-.slidertextborderup{
-  width: 95%;
-  height: 30px;
-  margin: auto;
-  border-top: solid white 8px;
-  border-left: solid white 8px;
-  border-right:solid white 8px;
-}
-
-.slidertextborderbottom{
-  width: 95%;
-  height: 30px;
-  margin: auto;
-  border-bottom: solid white 8px;
-  border-left: solid white 8px;
-  border-right:solid white 8px;
-}
-
-  /*~~~~~~~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~*/
-
-
-  /*~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~*/
-
-  .footerdesktop{
-    display: none;
-  }
-
-.footerdesktopend{
-  display: none;
-}
-
-  .footercontainer{
-    width: 80%;
-    margin: auto;
-    font-size: 1.7em;
-    color: white;
-  }
-
-  .footercontainer .icon{
-    font-size: 45px;
-  }
-
-  .footercontainer h5{
-    font-size: 2em;
-  }
-
-  .iconsfooter{
-    width: 75%;
-    margin: auto;
-    margin-top: 80px;
-  }
-
-  .iconsfooter .icon{
-    font-size: 50px;
-  }
-
-  .footercontaineritem1, .footercontaineritem2{
-    margin-top: 50px;
-  }
-  /*~~~~~~~~~~~~~~~~~~~ END FOOTER~~~~~~~~~~~~~~~~~*/
-
-}
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~DESKTOP~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-@media (min-width:1280px){
-
-  /*~~~~~~~~~~~~~INDEX INTRO~~~~~~~~~~~~~~~~~~~~~~*/
-  .firstencartlogo{
-    display: none;
-  }
-
-  .firstencartborderbottom2{
-    border-bottom: solid white 10px;
-  }
-
-  .firstencartbordertop3{
-    border-top: solid white 10px;
-  }
-
-  .firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4{
-    margin: 30px;
-}
-
-.firstencart h4{
-  font-size: 2.5em;
-}
-
-.firstencart p{
-  font-size: 1.1em;
-}
-
-.firstencart i{
-  font-size: 3em;
-}
-
-
-  /*~~~~~~~~~~~~~END INDEX INTRO~~~~~~~~~~~~~~~~~~*/
-
-  /*~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~*/
-
-  .slidertitre{
-    font-size: 3em;
-    font-weight: bold;
-  }
-
-  .slidertext2{
-    font-weight: bold;
-  }
-
-  .slider i{
-    color: white;
-    font-size: 2.7em;
+@media (min-width:638px) {
+    /*~~~~~~~~~~~~~ INDEX INTRO~~~~~~~~~~~~~~~~~~*/
+    .firstencart h4 {
+        font-size: 2em;
     }
-
-  .slidertextborderup{
-    width: 95%;
-    height: 40px;
-    margin: auto;
-    border-top: solid white 10px;
-    border-left: solid white 10px;
-    border-right:solid white 10px;
-  }
-
-  .slidertextborderbottom{
-    width: 95%;
-    height: 40px;
-    margin: auto;
-    border-bottom: solid white 10px;
-    border-left: solid white 10px;
-    border-right:solid white 10px;
-  }
-
-  /*~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~~*/
-
-
-  /*~~~~~~~~~~~~~~~~~~~HOVER DIV~~~~~~~~~~~~~~~~~*/
-
-  /*~~~~~~~~~~~~~~~~~~~END HOVER DIV~~~~~~~~~~~~~~~~~*/
-
-.footercontaineritem2{
-  display: none;
-}
-
-.footercontaineritem1{
-  display: none;
-}
-
-.footercontaineritem0{
-  display: none;
-}
-
-.iconsfooter{
-  display: none;
-}
-
-.footerdesktop{
-  display: flex;
-  border-bottom: solid 1px white;
-}
-
-.footerdesktop article .iconfooter{
-  padding-left: 0;
-  padding-bottom: 20px;
-}
-
-.footerdesktop article{
-  padding: 20px;
-}
-
-.footerdesktop h5{
-  font-size: 0.9em;
-  font-weight: bold;
-  text-align: left;
-}
-
-.footerdesktop ul, .footerdesktop p{
-  font-size: 0.45em;
-  text-align: left;
-}
-
-.suiveznousicons{
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  text-align: center;
-}
-
-.suiveznousicons .icon{
-  font-size: 0.8em;
-  color: white;
-}
-
-.suiveznousicons .icon:hover{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
-}
-
-.footerdesktopend{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-  padding-top: 30px;
-}
-
-.footerdesktopend a{
-  color: white;
-  font-weight: bold;
-  font-size: 0.8em;
-}
-
-.footerdesktopend a:hover{
-text-decoration: none;
-color: rgba(215, 55, 62, 1);
-transition: 0.4s;
-}
-
-.footercaissedepargne{
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-}
-
-.footercaissedepargne p{
-  font-size: 0.4em;
-  color: grey;
-}
-
-.footercaissedepargne figure img{
-  width: 100%;
-  height: auto;
-}
-
-.footercaissedepargne figure{
-  width: 200px;
+    .firstencart p {
+        font-size: 0.9em;
+    }
+    .firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4 {
+        height: 20px;
+    }
+    .firstencartbordertop1 {
+        border-top: solid white 10px;
+        border-right: solid white 10px;
+    }
+    .firstencartborderbottom2 {
+        border-left: solid white 10px;
+        border-bottom: solid white 5px;
+    }
+    .firstencartbordertop3 {
+        border-top: solid white 5px;
+        border-right: solid white 10px;
+    }
+    .firstencartborderbottom4 {
+        border-bottom: solid white 10px;
+        border-left: solid white 10px;
+    }
+    /*~~~~~~~~~~~~~END INDEX INTRO~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~~*/
+    .slider {
+        padding: 0;
+    }
+    .slidertitre {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .slidertext2 {
+        font-weight: bold;
+    }
+    .slider i {
+        color: white;
+        font-size: 2em;
+    }
+    .slidertextborderup {
+        width: 95%;
+        height: 30px;
+        margin: auto;
+        border-top: solid white 8px;
+        border-left: solid white 8px;
+        border-right: solid white 8px;
+    }
+    .slidertextborderbottom {
+        width: 95%;
+        height: 30px;
+        margin: auto;
+        border-bottom: solid white 8px;
+        border-left: solid white 8px;
+        border-right: solid white 8px;
+    }
+    /*~~~~~~~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~*/
+    .footerdesktop {
+        display: none;
+    }
+    .footerdesktopend {
+        display: none;
+    }
+    .footercontainer {
+        width: 80%;
+        margin: auto;
+        font-size: 1.7em;
+        color: white;
+    }
+    .footercontainer .icon {
+        font-size: 45px;
+    }
+    .footercontainer h5 {
+        font-size: 2em;
+    }
+    .iconsfooter {
+        width: 75%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .iconsfooter .icon {
+        font-size: 50px;
+    }
+    .footercontaineritem1, .footercontaineritem2 {
+        margin-top: 50px;
+    }
+    /*~~~~~~~~~~~~~~~~~~~ END FOOTER~~~~~~~~~~~~~~~~~*/
 }
 
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~DESKTOP~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (min-width:1280px) {
+    /*~~~~~~~~~~~~~INDEX INTRO~~~~~~~~~~~~~~~~~~~~~~*/
+    .firstencartlogo {
+        display: none;
+    }
+    .firstencartborderbottom2 {
+        border-bottom: solid white 10px;
+    }
+    .firstencartbordertop3 {
+        border-top: solid white 10px;
+    }
+    .firstencartbordertop1, .firstencartbordertop3, .firstencartborderbottom2, .firstencartborderbottom4 {
+        margin: 30px;
+    }
+    .firstencart h4 {
+        font-size: 2.5em;
+    }
+    .firstencart p {
+        font-size: 1.1em;
+    }
+    .firstencart i {
+        font-size: 3em;
+    }
+    /*~~~~~~~~~~~~~END INDEX INTRO~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~SLIDER~~~~~~~~~~~~~~~~~~*/
+    .slidertitre {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .slidertext2 {
+        font-weight: bold;
+    }
+    .slider i {
+        color: white;
+        font-size: 2.7em;
+    }
+    .slidertextborderup {
+        width: 95%;
+        height: 40px;
+        margin: auto;
+        border-top: solid white 10px;
+        border-left: solid white 10px;
+        border-right: solid white 10px;
+    }
+    .slidertextborderbottom {
+        width: 95%;
+        height: 40px;
+        margin: auto;
+        border-bottom: solid white 10px;
+        border-left: solid white 10px;
+        border-right: solid white 10px;
+    }
+    /*~~~~~~~~~~~~~END SLIDER~~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~HOVER DIV~~~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~~~~~END HOVER DIV~~~~~~~~~~~~~~~~~*/
+    .footercontaineritem2 {
+        display: none;
+    }
+    .footercontaineritem1 {
+        display: none;
+    }
+    .footercontaineritem0 {
+        display: none;
+    }
+    .iconsfooter {
+        display: none;
+    }
+    .footerdesktop {
+        display: flex;
+        border-bottom: solid 1px white;
+    }
+    .footerdesktop article .iconfooter {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .footerdesktop article {
+        padding: 20px;
+    }
+    .footerdesktop h5 {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: left;
+    }
+    .footerdesktop ul, .footerdesktop p {
+        font-size: 0.45em;
+        text-align: left;
+    }
+    .suiveznousicons {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        text-align: center;
+    }
+    .suiveznousicons .icon {
+        font-size: 0.8em;
+        color: white;
+    }
+    .suiveznousicons .icon:hover {
+        color: rgba(215, 55, 62, 1);
+        transition: 0.4s;
+    }
+    .footerdesktopend {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .footerdesktopend a {
+        color: white;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    .footerdesktopend a:hover {
+        text-decoration: none;
+        color: rgba(215, 55, 62, 1);
+        transition: 0.4s;
+    }
+    .footercaissedepargne {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .footercaissedepargne p {
+        font-size: 0.4em;
+        color: grey;
+    }
+    .footercaissedepargne figure img {
+        width: 100%;
+        height: auto;
+    }
+    .footercaissedepargne figure {
+        width: 200px;
+    }
 }
 
 
@@ -740,8 +691,7 @@ header nav {
     min-height: 50px;
 }
 
-
-header nav a, .whitecolor, .navbar-toggler-icon, .logoindex p , a:visited {
+header nav a, .whitecolor, .navbar-toggler-icon, .logoindex p, a:visited {
     color: white;
 }
 

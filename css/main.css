@@ -483,22 +483,20 @@ body {
     margin-top: 45px;
 }
 
-.savoirplus{
-  border: 2px solid black;
-  color: black;
-  padding: 8px;
+.savoirplus {
+    border: 2px solid black;
+    color: black;
+    padding: 8px;
 }
 
 .savoirplus i {
-  margin: 0;
-  margin-left: 4px;
-  font-size: inherit;
+    margin: 0;
+    margin-left: 4px;
+    font-size: inherit;
 }
 
-
-
-.bordertopred > p {
-  font-size: 30px
+.bordertopred>p {
+    font-size: 30px
 }
 
 .agendacenter {
@@ -508,26 +506,34 @@ body {
     justify-content: center;
     margin-top: 30px;
 }
+
 .agendacenter i:first-child {
     font-size: 75px;
     margin-bottom: 20px;
 }
+
 .agendacenter h2 {
     font-weight: bolder;
 }
 
+.h2margintop span {
+    color: #d3336c;
+}
 
-.h2margintop span{
-  color: #d3336c;
+.agendaarticle {
+    flex-direction: column;
 }
-.agendaarticle{
-  flex-direction: column;
+
+.agendacenter select {
+    border: 3px solid black;
+    padding: 13px;
+    font-weight: bolder;
 }
-.agendacenter select{
-  border:3px solid black;
-  padding: 13px;
-  font-weight: bolder;
+
+.hoverred:hover {
+    color: #d3336c;
 }
+
 @media (min-width:1200px) {
     body {
         padding-top: 89px;
@@ -583,12 +589,10 @@ body {
         width: 37px;
         height: 37px;
     }
-
     .bordertopred {
         border-top: 1px solid #d3336c;
         position: relative;
     }
-
     .bordertoprightpurple {
         position: absolute;
         top: 0;
@@ -598,7 +602,6 @@ body {
         width: 37px;
         height: 37px;
     }
-
     .bordertoppurple {
         border-top: 1px solid #935297;
         position: relative;
@@ -607,15 +610,14 @@ body {
         margin-top: 37px;
         font-weight: bolder;
     }
-    .agendaarticle{
-      flex-direction: row;
-      margin-bottom: 25px;
+    .agendaarticle {
+        flex-direction: row;
+        margin-bottom: 25px;
     }
-
-    .agendacenter{
-      margin-top: 0;
+    .agendacenter {
+        margin-top: 0;
     }
-    .agendamargintop{
+    .agendamargintop {
         position: relative;
         margin-left: auto;
         margin-right: auto;

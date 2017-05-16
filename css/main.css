@@ -523,7 +523,11 @@ body {
 .agendaarticle{
   flex-direction: column;
 }
-
+.agendacenter select{
+  border:3px solid black;
+  padding: 13px;
+  font-weight: bolder;
+}
 @media (min-width:1200px) {
     body {
         padding-top: 89px;

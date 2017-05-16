@@ -109,255 +109,229 @@ textarea {
    ========================================================================== */
 
 
-   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-   /*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
-   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
+/*~~~~~~~~~~~~~~~~~~~MOBILE~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 /*~~~~~~~~~~~~~~~ FOOTER MOBILE~~~~~~~~~~~~~~~*/
-.footerdesktop{
-  display: none;
+
+.footerdesktop {
+    display: none;
 }
 
-.footerdesktopend{
-  display: none;
+.footerdesktopend {
+    display: none;
 }
 
-footer{
-  background-color:rgba(29, 29, 30,1);
-  padding-top: 50px;
-  width: 100%;
+footer {
+    background-color: rgba(29, 29, 30, 1);
+    padding-top: 50px;
+    width: 100%;
 }
 
-.footercontainer{
-  width: 250px;
-  margin: auto;
-  font-size: 0.8em;
-  color: white;
+.footercontainer {
+    width: 250px;
+    margin: auto;
+    font-size: 0.8em;
+    color: white;
 }
 
-.iconsfooter{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+.iconsfooter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.iconsfooter .icon{
-  color: white;
+.iconsfooter .icon {
+    color: white;
 }
 
-.iconsfooter .icon:hover{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.iconsfooter .icon:hover {
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.iconfooter{
-  font-size: 20px;
-  margin-right: 20px;
-  color: white;
+.iconfooter {
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
 }
 
-
-.horaires{
-  font-size: 0.8em;
-  font-weight: bold;
+.horaires {
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
-.footercontaineritem1, .footercontaineritem05{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.footercontaineritem1, .footercontaineritem05 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.footercontaineritem1{
-  margin-top: 20px;
+.footercontaineritem1 {
+    margin-top: 20px;
 }
 
-.footercontaineritem1:hover,.footercontaineritem1:hover .icon{
-  text-decoration: none;
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.footercontaineritem1:hover, .footercontaineritem1:hover .icon {
+    text-decoration: none;
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.footercontaineritem2{
-  display: block;
-  margin-top: 20px;
-  color: white;
+.footercontaineritem2 {
+    display: block;
+    margin-top: 20px;
+    color: white;
 }
 
-.footercontaineritem2:hover, .footercontaineritem2:hover .icon{
-  text-decoration: none;
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
+.footercontaineritem2:hover, .footercontaineritem2:hover .icon {
+    text-decoration: none;
+    color: rgba(215, 55, 62, 1);
+    transition: 0.4s;
 }
 
-.footercaissedepargne{
-  display: none;
+.footercaissedepargne {
+    display: none;
 }
-
-
 
 
 /*~~~~~~~~~~~~~~~ END FOOTER MOBILE ~~~~~~~~~~~~~~~*/
 
 
-
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /*~~~~~~~~~~~~~~~~~~~TABLET~~~~~~~~~~~~~~~~~~~*/
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-@media (min-width:638px){
-
-  .footerdesktop{
-    display: none;
-  }
-
-.footerdesktopend{
-  display: none;
-}
-
-  .footercontainer{
-    width: 80%;
-    margin: auto;
-    font-size: 1.7em;
-    color: white;
-  }
-
-  .footercontainer .icon{
-    font-size: 45px;
-  }
-
-  .footercontainer h5{
-    font-size: 2em;
-  }
-
-  .iconsfooter{
-    width: 75%;
-    margin: auto;
-    margin-top: 80px;
-  }
-
-  .iconsfooter .icon{
-    font-size: 50px;
-  }
-
-  .footercontaineritem1, .footercontaineritem2{
-    margin-top: 50px;
-  }
-
+@media (min-width:638px) {
+    .footerdesktop {
+        display: none;
+    }
+    .footerdesktopend {
+        display: none;
+    }
+    .footercontainer {
+        width: 80%;
+        margin: auto;
+        font-size: 1.7em;
+        color: white;
+    }
+    .footercontainer .icon {
+        font-size: 45px;
+    }
+    .footercontainer h5 {
+        font-size: 2em;
+    }
+    .iconsfooter {
+        width: 75%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .iconsfooter .icon {
+        font-size: 50px;
+    }
+    .footercontaineritem1, .footercontaineritem2 {
+        margin-top: 50px;
+    }
 }
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /*~~~~~~~~~~~~~~~~~DESKTOP~~~~~~~~~~~~~~~~~~~~*/
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-@media (min-width:1280px){
-
-.footercontaineritem2{
-  display: none;
-}
-
-.footercontaineritem1{
-  display: none;
-}
-
-.footercontaineritem0{
-  display: none;
-}
-
-.iconsfooter{
-  display: none;
-}
-
-.footerdesktop{
-  display: flex;
-  border-bottom: solid 1px white;
-}
-
-.footerdesktop article .iconfooter{
-  padding-left: 0;
-  padding-bottom: 20px;
-}
-
-.footerdesktop article{
-  padding: 20px;
-}
-
-.footerdesktop h5{
-  font-size: 0.9em;
-  font-weight: bold;
-  text-align: left;
-}
-
-.footerdesktop ul, .footerdesktop p{
-  font-size: 0.45em;
-  text-align: left;
-}
-
-.suiveznousicons{
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  text-align: center;
-}
-
-.suiveznousicons .icon{
-  font-size: 0.8em;
-  color: white;
-}
-
-.suiveznousicons .icon:hover{
-  color: rgba(215, 55, 62, 1);
-  transition: 0.4s;
-}
-
-.footerdesktopend{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-  padding-top: 30px;
-}
-
-.footerdesktopend a{
-  color: white;
-  font-weight: bold;
-  font-size: 0.8em;
-}
-
-.footerdesktopend a:hover{
-text-decoration: none;
-color: rgba(215, 55, 62, 1);
-transition: 0.4s;
-}
-
-.footercaissedepargne{
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-}
-
-.footercaissedepargne p{
-  font-size: 0.4em;
-  color: grey;
-}
-
-.footercaissedepargne figure img{
-  width: 100%;
-  height: auto;
-}
-
-.footercaissedepargne figure{
-  width: 200px;
-}
-
-
+@media (min-width:1280px) {
+    .footercontaineritem2 {
+        display: none;
+    }
+    .footercontaineritem1 {
+        display: none;
+    }
+    .footercontaineritem0 {
+        display: none;
+    }
+    .iconsfooter {
+        display: none;
+    }
+    .footerdesktop {
+        display: flex;
+        border-bottom: solid 1px white;
+    }
+    .footerdesktop article .iconfooter {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .footerdesktop article {
+        padding: 20px;
+    }
+    .footerdesktop h5 {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: left;
+    }
+    .footerdesktop ul, .footerdesktop p {
+        font-size: 0.45em;
+        text-align: left;
+    }
+    .suiveznousicons {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        text-align: center;
+    }
+    .suiveznousicons .icon {
+        font-size: 0.8em;
+        color: white;
+    }
+    .suiveznousicons .icon:hover {
+        color: rgba(215, 55, 62, 1);
+        transition: 0.4s;
+    }
+    .footerdesktopend {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .footerdesktopend a {
+        color: white;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    .footerdesktopend a:hover {
+        text-decoration: none;
+        color: rgba(215, 55, 62, 1);
+        transition: 0.4s;
+    }
+    .footercaissedepargne {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .footercaissedepargne p {
+        font-size: 0.4em;
+        color: grey;
+    }
+    .footercaissedepargne figure img {
+        width: 100%;
+        height: auto;
+    }
+    .footercaissedepargne figure {
+        width: 200px;
+    }
 }
 
 
@@ -434,7 +408,7 @@ header nav .active {
     margin-right: 15px;
 }
 
-.logoindex a:first-child:hover p , .cardimgback:hover .visiterparcours i , .cardimgback:hover .visiterparcours span , .cardimgback:hover h3 , .cardimgback:hover .cardp , .cardimgbackoeuvre:hover .cardp2 i , .cardimgbackoeuvre:hover .cardp2 h2 , .cardimgbackoeuvre:hover .cardp2 p {
+.logoindex a:first-child:hover p, .cardimgback:hover .visiterparcours i, .cardimgback:hover .visiterparcours span, .cardimgback:hover h3, .cardimgback:hover .cardp, .cardimgbackoeuvre:hover .cardp2 i, .cardimgbackoeuvre:hover .cardp2 h2, .cardimgbackoeuvre:hover .cardp2 p {
     color: #D8383F;
 }
 
@@ -462,18 +436,21 @@ a:hover {
     padding: 40px 22px 0 22px;
     background-color: rgba(255, 255, 255, 0.9);
 }
-.cardp1{
-  top: 60%;
+
+.cardp1 {
+    top: 60%;
 }
+
 .cardp1, .cardp2 {
     width: 70%;
     left: 20%;
     height: 139px;
 }
 
-.cardp2{
-  top:30%;
+.cardp2 {
+    top: 30%;
 }
+
 .cardp1, .cardp2 {
     background-color: rgba(255, 255, 255);
 }
@@ -482,13 +459,75 @@ a:hover {
     left: 0;
 }
 
-.paddingbot{
-  padding-bottom: 40px;
+.paddingbot {
+    padding-bottom: 40px;
 }
-.cardpmobile{
-  margin: auto;
+
+.cardpmobile {
+    margin: auto;
 }
+
+body {
+    padding-top: 118px;
+}
+
+.chevron i {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*agenda.html*/
+
+.agendamargintop {
+    margin-top: 45px;
+}
+
+.savoirplus{
+  border: 2px solid black;
+  color: black;
+  padding: 8px;
+}
+
+.savoirplus i {
+  margin: 0;
+  margin-left: 4px;
+  font-size: inherit;
+}
+
+
+
+.bordertopred > p {
+  font-size: 30px
+}
+
+.agendacenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.agendacenter i:first-child {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.agendacenter h2 {
+    font-weight: bolder;
+}
+
+
+.h2margintop span{
+  color: #d3336c;
+}
+.agendaarticle{
+  flex-direction: column;
+}
+
 @media (min-width:1200px) {
+    body {
+        padding-top: 89px;
+    }
     .center {
         margin: 0 auto;
         width: 1280px;
@@ -524,11 +563,62 @@ a:hover {
         margin: 0;
         color: #868687;
     }
-    .cardp{
+    .cardp {
         width: 50%;
         left: 20%;
         top: 60%;
         height: 139px;
+    }
+    /* agenda.html*/
+    .bordertopright {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top: solid 16px #d3336c;
+        border-right: solid 16px #d3336c;
+        width: 37px;
+        height: 37px;
+    }
+
+    .bordertopred {
+        border-top: 1px solid #d3336c;
+        position: relative;
+    }
+
+    .bordertoprightpurple {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top: solid 16px #935297;
+        border-right: solid 16px #935297;
+        width: 37px;
+        height: 37px;
+    }
+
+    .bordertoppurple {
+        border-top: 1px solid #935297;
+        position: relative;
+    }
+    .h2margintop {
+        margin-top: 37px;
+        font-weight: bolder;
+    }
+    .agendaarticle{
+      flex-direction: row;
+      margin-bottom: 25px;
+    }
+
+    .agendacenter{
+      margin-top: 0;
+    }
+    .agendamargintop{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 1140px;
+        max-width: 100%;
     }
 }
 
